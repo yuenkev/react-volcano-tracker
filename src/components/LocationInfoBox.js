@@ -7,7 +7,7 @@ const LocationInfoBox = ({ info }) => {
         <ul>
             <li>ID: <strong>{ info.id }</strong></li>
             <li>TITLE: <strong>{ info.title }</strong></li>
-            <li>LINK: <strong>{ info.link }</strong></li>
+            <li>LINK: <a href={ info.link }><strong>{ info.link }</strong></a></li>
         </ul>
     </div>
   )
